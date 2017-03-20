@@ -1,0 +1,37 @@
+  <!-- header wrapper -->
+  <div></div>
+  
+  <div class="wrapper cf">
+    <div id="logo"> <a href="index.jsp" ><img src="img/kostalogo.png" alt=""></a> </div>
+  </div>
+  <!-- ENDS header wrapper -->
+  <!-- nav -->
+  <nav class="cf">
+    <div class="wrapper cf">
+      <ul id="nav" class="sf-menu">
+        <li><a href="index.jsp">HOME<i><b></b></i></a></li>
+        <li><a href="best.jsp">Best<i><b></b></i></a>
+<!--           <ul>
+            <li><a href="page.jsp">Columns</a></li>
+            <li><a href="page-typography.jsp">Typography</a></li>
+            <li><a href="page-elements.jsp">Elements</a></li>
+          </ul> -->
+        </li>
+        <li><a href="bestChallenge.jsp">Best Challenge<i><b></b></i></a></li>
+        <li><a href="challenge.jsp">Challenge<i><b></b></i></a></li>
+        <!-- 로그인 안되어있을때는  <li><a href="login.jsp">member<i><b></b></i></a></li> <li><a href="login.jsp">Login</a></li>
+            <li><a href="join.jsp">Join</a></li>
+            
+		            로그인 되어있을때 회원이면 회원정보 / 관리자면 관리자관리가 표시되게 해주면 좋을듯
+            -->
+		        <li><a href="login.jsp">member<i><b></b></i></a>
+   	    			<ul>
+       	 				<li><a href="login.jsp">login</a></li>
+        			   	<li><a href="page-elements.jsp">Join</a></li>
+       			 	</ul>
+        		</li>
+      </ul>
+      <div id="combo-holder"></div>
+    </div>
+  </nav>
+  <!-- ends nav -->
